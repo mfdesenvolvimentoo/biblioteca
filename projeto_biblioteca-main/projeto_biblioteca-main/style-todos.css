@@ -1,0 +1,46 @@
+/* body{
+    text-align: center;
+} */
+/* header{
+    background-color: rgb(46, 0, 251); /* Cor de fundo 
+} */
+body {
+    margin: 0;
+    padding: 20px;
+}
+button{
+    background-color: rgb(46, 0, 251); /* Cor de fundo */
+    color: white; /* Cor do texto */
+    border: none; /* Sem borda */
+    border-radius: 25px; /* Bordas arredondadas */
+    padding: 15px 30px; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Muda o cursor ao passar o mouse */
+    transition: background-color 0.3s; /* Efeito de transição */
+   
+}
+label {
+     /* width: 100px; Defina uma largura fixa */
+    font-weight: bold; /* Deixe o texto em negrito */
+    text-align: right;
+    display: inline-block;
+}
+
+input {
+    width: 400px; /* Mesma largura que o label */
+    padding: 8px; /* Espaçamento interno */
+    border: 1px solid #ccc; /* Borda padrão */
+    border-radius: 8px; /* Bordas arredondadas */
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+.text-center{
+    text-align: center;
+}
+.btn-centralizar{
+    display: block; /* Faz o botão se comportar como um bloco */
+    margin: 0 auto; /* Centraliza horizontalmente */
+}
